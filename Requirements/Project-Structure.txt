@@ -1,0 +1,39 @@
+online-bookstore/
+│
+├── database/
+│   ├── create_database.sql
+│   ├── triggers.sql
+│   └── sample_data.sql
+│
+├── includes/
+│   ├── config.php
+│   ├── db_connection.php     <-- MOVED HERE
+│   ├── auth.php
+│   └── functions.php
+│
+├── admin/
+│   ├── dashboard.php
+│   ├── add_book.php
+│   ├── modify_book.php
+│   ├── manage_orders.php
+│   ├── view_orders.php
+│   └── reports.php
+│
+├── customer/
+│   ├── dashboard.php
+│   ├── search.php
+│   ├── cart.php
+│   ├── checkout.php
+│   ├── orders.php
+│   └── profile.php
+│
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
+│
+├── index.php
+├── login.php
+├── register.php
+└── logout.php
